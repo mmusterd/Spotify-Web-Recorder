@@ -568,7 +568,6 @@
 			this.toolStripButton_Back.Name = "toolStripButton_Back";
 			this.toolStripButton_Back.Size = new System.Drawing.Size(49, 22);
 			this.toolStripButton_Back.Text = "Back";
-			this.toolStripButton_Back.Click += new System.EventHandler(this.toolStripButton_Back_Click);
 			// 
 			// toolStripButton_Home
 			// 
@@ -579,7 +578,6 @@
 			this.toolStripButton_Home.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton_Home.Text = "Reload";
 			this.toolStripButton_Home.ToolTipText = "Reload page";
-			this.toolStripButton_Home.Click += new System.EventHandler(this.toolStripButton_Home_Click);
 			// 
 			// toolStripSeparator3
 			// 
