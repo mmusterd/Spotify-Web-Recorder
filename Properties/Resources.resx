@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SpotifyNotRunningMsg" xml:space="preserve">
+    <value>Spotify isn't running!</value>
+  </data>
+  <data name="SpotifyWebHelperNotRunningMsg" xml:space="preserve">
+    <value>SpotifyWebHelper isn't running!</value>
+  </data>
+  <data name="CouldntConnectMsg" xml:space="preserve">
+    <value>Couldn't connect to the spotify client. Retry?</value>
+  </data>
+  <data name="Windows7OrLater" xml:space="preserve">
+    <value>This application is optimized for windows 7 or higher</value>
+  </data>
+  <data name="SpotifyMsgHeader" xml:space="preserve">
+    <value>Spotify</value>
+  </data>
+  <data name="WavFileCouldNotBeFound" xml:space="preserve">
+    <value>Wav file couldn't be found</value>
+  </data>
+  <data name="MainForm_InitializeComponent__Record_" xml:space="preserve">
+    <value> Record </value>
+  </data>
+  <data name="MainForm_InitializeComponent__Shuffle_is_on__" xml:space="preserve">
+    <value>(Shuffle is on!)</value>
+  </data>
+  <data name="MainForm_InitializeComponent___0_for_Limitless__" xml:space="preserve">
+    <value>( 0 for Limitless )</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Song_Count_to_Save_" xml:space="preserve">
+    <value>Song Count to Save:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Time_" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Now_Playing_" xml:space="preserve">
+    <value>Now Playing:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Finished_Recordings_" xml:space="preserve">
+    <value>Finished Recordings:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Encoding_" xml:space="preserve">
+    <value>Encoding:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Now_Recording_" xml:space="preserve">
+    <value>Now Recording:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_For_more_information__check_the_online_help" xml:space="preserve">
+    <value>For more information, check the online help</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Donate_with_PayPal" xml:space="preserve">
+    <value>Donate with PayPal</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Start_Monitoring" xml:space="preserve">
+    <value>Start Monitoring</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Stop_Monitoring" xml:space="preserve">
+    <value>Stop Monitoring</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Open_output_folder" xml:space="preserve">
+    <value>Open output folder</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Delete_selected" xml:space="preserve">
+    <value>Delete selected</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Clear_List" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="MainForm_InitializeComponent__Settings_" xml:space="preserve">
+    <value> Settings </value>
+  </data>
+  <data name="MainForm_InitializeComponent_Shutdown_after_reaching_song_limit_" xml:space="preserve">
+    <value>Shutdown after reaching song limit.</value>
+  </data>
+  <data name="NoteTxt" xml:space="preserve">
+    <value>Note: if you are using free version of spotify you can select CBR192 bitrate option.Higher bitrate options would be pointless for you since spotify giving 160 kbps bitrate to free users.</value>
+  </data>
+  <data name="MainForm_InitializeComponent__Sound_Quality_" xml:space="preserve">
+    <value>(Sound Quality)</value>
+  </data>
+  <data name="MainForm_InitializeComponent__Between_0_100_" xml:space="preserve">
+    <value>(Between 0-100)</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Album_Art_Quality_" xml:space="preserve">
+    <value>Album Art Quality:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Version__" xml:space="preserve">
+    <value>Version :</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Client_Version__" xml:space="preserve">
+    <value>Client Version :</value>
+  </data>
+  <data name="MainForm_InitializeComponent__as" xml:space="preserve">
+    <value>as</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Open_Rec__Devices" xml:space="preserve">
+    <value>Open Rec. Devices</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Open_Sound_Mixer" xml:space="preserve">
+    <value>Open Sound Mixer</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Normally__Stereo_Mix___See_help_for_more_info_" xml:space="preserve">
+    <value>Normally 'Stereo Mix'. See help for more info.</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Recording_device_" xml:space="preserve">
+    <value>Recording device:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Save_recorded_mp3_s_in_this_folder_" xml:space="preserve">
+    <value>Save recorded mp3's in this folder:</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Mp3_bitrate_" xml:space="preserve">
+    <value>Mp3 bitrate:</value>
+  </data>
+  <data name="MainForm_InitializeComponent__The_Picture_" xml:space="preserve">
+    <value>(The Picture)</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Reload_page" xml:space="preserve">
+    <value>Reload page</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Hide_Control_Panel" xml:space="preserve">
+    <value>Hide Control Panel</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Spotify_Recorder" xml:space="preserve">
+    <value>Spotify Recorder</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Play_selected" xml:space="preserve">
+    <value>Play selected</value>
+  </data>
+  <data name="MainForm_InitializeComponent_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="MainForm_PostProccessMain_Please_set_a_output_folder_from_settings" xml:space="preserve">
+    <value>Please set a output folder from settings</value>
+  </data>
+  <data name="MainForm_toolStripMenuItem_Delete_Click_Could_not_delete_recording___" xml:space="preserve">
+    <value>Could not delete recording...</value>
+  </data>
+  <data name="MainForm_textBoxAlbumArtQuality_TextChanged_This_value_must_be_between_0_100" xml:space="preserve">
+    <value>This value must be between 0-100</value>
+  </data>
+  <data name="MainForm_toolStripMenuItem_Play_Click_Could_not_play_song___" xml:space="preserve">
+    <value>Could not play song...</value>
+  </data>
+  <data name="MainForm_UpdateTrack_Advert" xml:space="preserve">
+    <value>Advert</value>
+  </data>
+</root>
